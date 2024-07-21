@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+    <header>
+        <nav> 
+            <h1>Runalyi Salunkhe</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="tagline">
+            <p>Designing Creative Solutions with Code.</p>
+        </div>
+    </header>
+
+    <div class="content-with-aside">
+        <aside class="profile-aside">
+            <img src="../Internship/Image/Runalyi_Pic.JPG" alt="Your Photo" class="profile-photo">
+        </aside>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I'm Runalyi Salunkhe, and I'm enrolled in Qspiders Wakad's Java Full Stack course right now. My
+                    degree is a bachelor's in computer science. Since then, as I work toward a career in computer
+                    engineering, I have been passionate about coding, discovering new languages and technologies, and
+                    being able to improvise. The way websites work and store and identify multiple users who gain access
+                    on servers has always fascinated me. The fact that computer engineers get to work on and develop
+                    these websites and applications is what inspired me to pursue a career in computer engineering.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>SpotBot : Bot detection using machine learning</h3>
+                    <p>Creating a machine learning model capable of identifying bots on social media sites was the aim
+                        of this study. After training on a dataset of tweets, the model achieved 90% accuracy in
+                        classifying tweets as either human or bot. The project included feature engineering, model
+                        selection, hyperparameter tweaking, and data preprocessing.</p>
+                    <a href="link-to-live-demo-or-repo">View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML - Intermediate Level</li>
+                    <li>CSS - Intermediate Level</li>
+                    <li>java - Intermediate Level</li>
+                    <li>c++ - Intermediate Level</li>
+                    <li>sql - Intermediate Level</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <form action="https://example.com/contact" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <p>Or you can reach me at: <a href="mailto:salunkherunalyi@gmail.com">salunkherunalyi@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/runalyi-salunkhe-wbd">LinkedIn</a> | <a
+                        href="https://github.com/RunalyiFSD">GitHub</a></p>
+            </section>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
